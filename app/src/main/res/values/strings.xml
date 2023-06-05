@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">codeIsLive63</string>
+    <string name="groups">Группы</string>
+    <string name="students">Студенты</string>
+    <string name="app_logo">Institute</string>
+    <string name="group_list">Список групп</string>
+    <string name="faculty_name">Название факультета</string>
+    <string name="group_number">Номер группы</string>
+    <string name="actions">Действия</string>
+    <string name="sign_in">Вход в учётную запись</string>
+    <string name="login">Введите логин</string>
+    <string name="password">Введите пароль</string>
+    <string name="remember_me">Запомнить меня</string>
+    <string name="sign_in_btn">Войти</string>
 </resources>

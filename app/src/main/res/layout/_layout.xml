@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_logo"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/nav_brand" />
+
+        <Button
+            android:id="@+id/groups_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/groups"
+            style="@style/PrimaryButtonStyle" />
+
+        <Button
+            android:id="@+id/students_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/students"
+            style="@style/PrimaryButtonStyle" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/RenderBody"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#e5e5e5"
+        android:padding="8dp">
+    </LinearLayout>
+
+</LinearLayout>
